@@ -7,9 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Clean" Version="7.0.5" />
-    <PackageReference Include="Umbraco.Cms" Version="17.2.0" />
-    <PackageReference Include="Umbraco.Cms.DevelopmentMode.Backoffice" Version="17.2.0" />
+    <PackageReference Include="Clean" Version="8.0.1" />
+    <PackageReference Include="Umbraco.Cms" Version="18.1.0" />
+    <PackageReference Include="Umbraco.Cms.DevelopmentMode.Backoffice" Version="18.1.0" />
   </ItemGroup>
 
   <ItemGroup>
@@ -19,19 +19,22 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Umbraco.AI\src\Umbraco.AI.Startup\Umbraco.AI.Startup.csproj" />
-    <ProjectReference Include="..\..\Umbraco.AI\src\Umbraco.AI.Web.StaticAssets\Umbraco.AI.Web.StaticAssets.csproj" />
-    <ProjectReference Include="..\..\Umbraco.AI.OpenAI\src\Umbraco.AI.OpenAI\Umbraco.AI.OpenAI.csproj" />
-    <ProjectReference Include="..\..\Umbraco.AI.Anthropic\src\Umbraco.AI.Anthropic\Umbraco.AI.Anthropic.csproj" />
-    <ProjectReference Include="..\..\Umbraco.AI.MicrosoftFoundry\src\Umbraco.AI.MicrosoftFoundry\Umbraco.AI.MicrosoftFoundry.csproj" />
-    <ProjectReference Include="..\..\Umbraco.AI.Google\src\Umbraco.AI.Google\Umbraco.AI.Google.csproj" />
-    <ProjectReference Include="..\..\Umbraco.AI.Amazon\src\Umbraco.AI.Amazon\Umbraco.AI.Amazon.csproj" />
-    <ProjectReference Include="..\..\Umbraco.AI.Prompt\src\Umbraco.AI.Prompt.Startup\Umbraco.AI.Prompt.Startup.csproj" />
-    <ProjectReference Include="..\..\Umbraco.AI.Prompt\src\Umbraco.AI.Prompt.Web.StaticAssets\Umbraco.AI.Prompt.Web.StaticAssets.csproj" />
-    <ProjectReference Include="..\..\Umbraco.AI.Agent\src\Umbraco.AI.Agent.Startup\Umbraco.AI.Agent.Startup.csproj" />
-    <ProjectReference Include="..\..\Umbraco.AI.Agent\src\Umbraco.AI.Agent.Web.StaticAssets\Umbraco.AI.Agent.Web.StaticAssets.csproj" />
-    <ProjectReference Include="..\..\Umbraco.AI.Agent.UI\src\Umbraco.AI.Agent.UI\Umbraco.AI.Agent.UI.csproj" />
-    <ProjectReference Include="..\..\Umbraco.AI.Agent.Copilot\src\Umbraco.AI.Agent.Copilot\Umbraco.AI.Agent.Copilot.csproj" />
+    <PackageReference Include="Umbraco.AI.Startup" Version="18.*-*" />
+    <PackageReference Include="Umbraco.AI.Web.StaticAssets" Version="18.*-*" />
+    <PackageReference Include="Umbraco.AI.OpenAI" Version="18.*-*" />
+    <PackageReference Include="Umbraco.AI.Anthropic" Version="18.*-*" />
+    <PackageReference Include="Umbraco.AI.MicrosoftFoundry" Version="18.*-*" />
+    <PackageReference Include="Umbraco.AI.Google" Version="18.*-*" />
+    <PackageReference Include="Umbraco.AI.Amazon" Version="18.*-*" />
+    <PackageReference Include="Umbraco.AI.Prompt.Startup" Version="18.*-*" />
+    <PackageReference Include="Umbraco.AI.Prompt.Web.StaticAssets" Version="18.*-*" />
+    <PackageReference Include="Umbraco.AI.Agent.Startup" Version="18.*-*" />
+    <PackageReference Include="Umbraco.AI.Agent.Web.StaticAssets" Version="18.*-*" />
+    <PackageReference Include="Umbraco.AI.Agent.UI" Version="18.*-*" />
+    <PackageReference Include="Umbraco.AI.Agent.Copilot" Version="18.*-*" />
+    <PackageReference Include="Umbraco.AI.Automate" Version="18.*-*" />
+    <PackageReference Include="Umbraco.Automate.Startup" Version="18.*-*" />
+    <PackageReference Include="Umbraco.Automate.Web.StaticAssets" Version="18.*-*" />
   </ItemGroup>
 
   <PropertyGroup>
