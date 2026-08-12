@@ -1,0 +1,9 @@
+{
+  "name": "release-demo-video-e2e",
+  "private": true,
+  "type": "module",
+  "devDependencies": {
+    "@playwright/test": "^1.48.0",
+    "@umbraco-cms/acceptance-test-helpers": "^18.1.0"
+  }
+}

@@ -467,6 +467,9 @@ umbraco-package-schema.json
 # Packages created from the backoffice (package.xml/package.zip)
 /umbraco/Data/CreatedPackages/
 
+# Recorded demo videos from the release-demo-video skill (ephemeral output, not site content)
+/.claude/skills/release-demo-video/e2e/videos/
+
 # Temp folder containing Examine indexes, NuCache, MediaCache, etc.
 /umbraco/Data/TEMP/
 
